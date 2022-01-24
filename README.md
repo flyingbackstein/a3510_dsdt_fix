@@ -6,8 +6,8 @@ Reboot.
 Done
 
 For other languages:
-Use dmidecode | grep "BIOS Revision" to check which BIOS you currently have
+Use 'dmidecode | grep "BIOS Revision"' to check which BIOS you currently have
 The respective .aml file needs to be copied to the /boot/ directory and renamed to dsdt.aml
 01_acpi needs be copied to /etc/grub.d/
 
-Follow it with update-grub and reboot. Battery symbol so appear in the task bar.
+Follow it up with update-grub and reboot. Battery symbol should appear in the task bar.
